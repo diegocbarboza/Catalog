@@ -5,7 +5,7 @@ using Catalog.Entities;
 
 namespace Catalog.Repositories
 {
-    public class InMemItemsRepository : IItemsRepository
+    public class InMemoryItemsRepository : IItemsRepository
     {
         private readonly List<Item> items = new()
         {
